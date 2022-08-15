@@ -23,5 +23,5 @@ jobs:
 
 Input parameter | Description | Required | Default
 --- | --- | --- | ---
-webhook | Discord webhook URL. Follow [this guide](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks) to create a webhook if you don't have one already.  | Yes | N/A
+webhook | Discord webhook URL. Follow [this guide](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks) to create a webhook if you don't have one already. Do not add `/github` or any other suffix. | Yes | N/A
 message | Message to be sent | Yes | N/A
