@@ -1,5 +1,5 @@
-name: 'discord-action'
-description: 'Send a message to a Discord webhook.'
+name: 'discord-ipfs-action'
+description: 'Send a rich message to a Discord webhook.'
 branding:
   color: 'purple'
   icon: 'message-square'
@@ -7,8 +7,11 @@ inputs:
   webhook:
     description: 'Discord webhook URL'
     required: true
-  message:
-    description: 'Message to be sent'
+  cid:
+    description: 'CID of the deployment'
+    required: true
+  commit:
+    description: 'Github commit that triggered this deployment'
     required: true
 runs:
   using: 'node12'
